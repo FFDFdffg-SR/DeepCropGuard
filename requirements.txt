@@ -1,0 +1,45 @@
+# Deep Learning Frameworks
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+tensorflow>=2.10.0        # Optional: remove if using PyTorch only
+keras>=2.10.0
+
+# Time Series and Data Processing
+pandas>=1.5.0
+numpy>=1.23.0
+scipy>=1.9.0
+scikit-learn>=1.2.0
+xarray>=2022.6.0           # For handling spatiotemporal datasets
+
+# Visualization and Debugging
+matplotlib>=3.6.0
+seaborn>=0.12.0
+plotly>=5.10.0
+tensorboard>=2.10.0
+
+# Geospatial and Remote Sensing Support
+rasterio>=1.3.0
+geopandas>=0.12.0
+pyproj>=3.4.0
+shapely>=2.0.0
+
+# Deep Learning Utilities
+einops>=0.6.0               # For tensor operations in attention mechanisms
+pytorch-lightning>=2.0.0    # Structured training
+timm>=0.9.0                 # Pretrained vision models
+segmentation-models-pytorch>=0.3.0  # If image segmentation is used
+
+# Reinforcement Learning
+gym>=0.26.0
+stable-baselines3>=2.1.0
+
+# Utilities and Configuration
+tqdm>=4.64.0
+hydra-core>=1.3.0
+omegaconf>=2.3.0
+PyYAML>=6.0
+
+# Jupyter Support
+ipython>=8.6.0
+jupyterlab>=3.5.0
